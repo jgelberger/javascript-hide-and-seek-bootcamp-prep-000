@@ -1,4 +1,4 @@
-describe('index', () => {
+  describe('index', () => {
   describe('getFirstSelector(selector)', () => {
     it('returns the first element that matches the selector', () => {
       expect(getFirstSelector('div').id).to.equal('nested')
